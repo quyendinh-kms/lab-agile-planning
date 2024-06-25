@@ -7,17 +7,15 @@ assignees: ''
 
 ---
 
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
+**As a** User
+ **I need** view all points of students
+ **So that** I can view all points of students on the home page
    
  ### Details and Assumptions
  * [document what you know]
    
  ### Acceptance Criteria  
-   
- ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+   When login to the Home page, the user can search by the ID of students
+   Then Click Search, and the information about this student is displayed including the point
+
  ```
